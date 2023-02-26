@@ -1,16 +1,55 @@
-p {
-    color:aquamarine;
-    width: 150px;
-}
-.a {
-    font-weight: bold;
-    color:rgb(110, 50, 50)
+* {
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: rgba(73, 12, 22, 0.418) 
+  }
+  .principal{
+  width: 60%;
+  float: left;
+  padding: 15px;
+  border: 1px transparent rgb(255, 255, 255)
+  } 
+.secundario{
+    width: 40%;
+  float: left;
+  padding: 15px;
+  border: 1px transparent rgb(255, 255, 255);
 
 }
-section {
-    width: 400px;
-    border: 10px;color:aquamarine;
-    padding: 10px;
-    margin: 5px;
+ h1 {
+    font-size: 50px;
+    background-color: rgb(107, 252, 245);
+    width: 340px;
+    border: 4px transparent rgb(207, 37, 250);
+    padding: 5px;
+    margin: 3px;
 
-}
+  }
+  section {
+    background-color: whitesmoke;
+    width: 500px;
+    border: 4px transparent rgb(2, 6, 255);
+    padding: 50px;
+    margin: 0px;
+    
+  }
+  h2 {
+    background-color: whitesmoke;
+
+  }
+  p{
+    background-color: whitesmoke;
+  }
+ .hide {
+display : none;
+ }
+
+ .show {
+  display :block;
+ }
+  
+  
